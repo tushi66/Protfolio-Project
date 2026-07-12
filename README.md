@@ -141,16 +141,6 @@ npm run preview
 
 ---
 
-# 🌐 Live Demo
-
-🔗 **Add your Vercel or Netlify link here**
-
-Example:
-
-https://your-portfolio.vercel.app
-
----
-
 # 📹 Presentation Video
 
 https://drive.google.com/drive/folders/1cXMnZ2B_UNTffGbOyV_TWomRcT9C2ew_?usp=sharing
