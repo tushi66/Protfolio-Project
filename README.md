@@ -15,8 +15,6 @@ A modern, responsive personal portfolio built with **React**, **Bootstrap**, **V
 
 # 📸 Preview
 
-> 📷 Add a screenshot named **preview.png** in your repository.
-
 <p align="center">
   <img src="./preview.png" width="100%" alt="Portfolio Preview"/>
 </p>
