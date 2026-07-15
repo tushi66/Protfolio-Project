@@ -70,8 +70,8 @@ function Portfolio() {
       <div className="container">
 
         <div className="text-center mb-5">
-          <h6 className="text-danger">MY WORK</h6>
-          <h2 className="fw-bold">Recent Projects</h2>
+          <h6 className="text-danger">HERE IS A SAMPLE OF PROJECTS I'VE WORKED ON.</h6>
+          <h2 className="fw-bold cmcolor display-3 ">Selected Projects</h2>
         </div>
 
         <div className="row g-4">
@@ -92,9 +92,9 @@ function Portfolio() {
                     {project.category}
                   </span>
 
-                  <h4>{project.title}</h4>
+                  <h3 className="cmcolor">{project.title}</h3>
 
-                  <p>{project.description}</p>
+                  <p className="intro">{project.description}</p>
 
                   <div className="d-flex gap-2">
 

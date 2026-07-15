@@ -1,9 +1,27 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import logo from "../assets/images/logo.png"
 
 function MyNavbar() {
+
+
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setSticky(window.scrollY > 100);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav className={`navbar navbar-expand-lg ${sticky ? "sticky-nav" : ""}`}>
       <div className="container-fluid">
 
         <a className="navbar-brand ms-5" href="#">
@@ -35,8 +53,19 @@ function MyNavbar() {
             </li>
 
             <li className="nav-item">
+              <a className="nav-link" href="#services">
+                SERVICES
+              </a>
+            </li>
+
+            <li className="nav-item">
               <a className="nav-link" href="#skills">
                 SKILLS
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#resume">
+                RESUME
               </a>
             </li>
 

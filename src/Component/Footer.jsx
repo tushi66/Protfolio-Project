@@ -7,9 +7,9 @@ function Footer() {
     <footer className="footer py-5 bg-dark">
       <div className="container text-center">
             <hr />
-        <h3 className="mb-3">Tushar Patel</h3>
+        <h3 className="mb-3 cmcolor display-5">Tushar Patel</h3>
 
-        <p className="text-secondary">
+        <p className="intro">
           Frontend Developer | React Developer
         </p>
 

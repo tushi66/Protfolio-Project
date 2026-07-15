@@ -13,9 +13,9 @@ function Contact() {
       <div className="container">
 
         <div className="text-center mb-5">
-          <h6 className="text-danger">CONTACT</h6>
-          <h2 className="fw-bold">Get In Touch</h2>
-          <p className="text-secondary">
+          <h6 className="text-danger intro">CONTACT</h6>
+          <h2 className="fw-bold display-5 cmcolor">Get In Touch</h2>
+          <p className="intro">
             Feel free to contact me for work, collaboration, or questions.
           </p>
         </div>
@@ -29,24 +29,24 @@ function Contact() {
               <div className="contact-item">
                 <FaEnvelope className="contact-icon" />
                 <div>
-                  <h5>Email</h5>
-                  <p>tusharpatel051997@gmail.com</p>
+                  <h5 className="intro">Email</h5>
+                  <p className="intro">tusharpatel051997@gmail.com</p>
                 </div>
               </div>
 
               <div className="contact-item">
                 <FaPhone className="contact-icon" />
                 <div>
-                  <h5>Phone</h5>
-                  <p>+91 9876556765</p>
+                  <h5 className="intro">Phone</h5>
+                  <p className="intro">+91 9876556765</p>
                 </div>
               </div>
 
               <div className="contact-item">
                 <FaMapMarkerAlt className="contact-icon" />
                 <div>
-                  <h5>Location</h5>
-                  <p>Gujarat, India</p>
+                  <h5 className="intro">Location</h5>
+                  <p className="intro">Gujarat, India</p>
                 </div>
               </div>
 

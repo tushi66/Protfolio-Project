@@ -54,8 +54,8 @@ function Services() {
 
         <div className="text-center mb-5">
           <h6 className="text-danger">WHAT I DO</h6>
-          <h2 className="fw-bold">My Services</h2>
-          <p className="text-secondary">
+          <h2 className="fw-bold display-4 cmcolor">My Services</h2>
+          <p className="intro">
             I help businesses and individuals build modern web applications.
           </p>
         </div>
@@ -72,7 +72,7 @@ function Services() {
 
                 <h4>{service.title}</h4>
 
-                <p>{service.description}</p>
+                <p className="intro">{service.description}</p>
 
               </div>
 

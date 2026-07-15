@@ -16,8 +16,8 @@ function Skills() {
 
         <div className="text-center mb-5">
           <h6 className="text-danger">MY SKILLS</h6>
-          <h2 className="fw-bold">My Technical Skills</h2>
-          <p className="text-secondary">
+          <h2 className="fw-bold display-5 cmcolor">My Technical Skills</h2>
+          <p className="intro">
             Here are the technologies I work with.
           </p>
         </div>
@@ -30,7 +30,7 @@ function Skills() {
               <div className="mb-4" key={index}>
 
                 <div className="d-flex justify-content-between mb-2">
-                  <span>{skill.name}</span>
+                  <span className="intro">{skill.name}</span>
                   <span>{skill.level}%</span>
                 </div>
 

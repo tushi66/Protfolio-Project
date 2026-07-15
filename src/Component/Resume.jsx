@@ -29,7 +29,7 @@ const experience = [
     company: "It Shopno Technology",
     year: "2024 - 2025",
     description:
-      "Worked on landing pages and responsive UI development.",
+      "Developed responsive landing pages and user interfaces with a focus on clean design and mobile compatibility.",
   },
 ];
 
@@ -40,13 +40,13 @@ function Resume() {
 
         <div className="text-center mb-5">
           <h6 className="text-danger">RESUME</h6>
-          <h2 className="fw-bold">Education & Experience</h2>
+          <h2 className="fw-bold display-5 cmcolor">Education & Experience</h2>
         </div>
 
         <div className="row">
 
           <div className="col-lg-6 mb-5">
-            <h3 className="mb-4">Education</h3>
+            <h3 className="mb-4 cmcolor">Education</h3>
 
             {education.map((item, index) => (
               <div className="timeline-card" key={index}>
@@ -54,18 +54,18 @@ function Resume() {
                   {item.year}
                 </span>
 
-                <h4>{item.title}</h4>
+                <h3 className="cmcolor">{item.title}</h3>
 
-                <h6>{item.institute}</h6>
+                <h6 className="intro">{item.institute}</h6>
 
-                <p>{item.description}</p>
+                <p className="intro">{item.description}</p>
               </div>
             ))}
 
           </div>
 
           <div className="col-lg-6">
-            <h3 className="mb-4">Experience</h3>
+            <h3 className="mb-4 cmcolor">Experience</h3>
 
             {experience.map((item, index) => (
               <div className="timeline-card" key={index}>
@@ -73,11 +73,11 @@ function Resume() {
                   {item.year}
                 </span>
 
-                <h4>{item.title}</h4>
+                <h3 className="cmcolor">{item.title}</h3>
 
-                <h6>{item.company}</h6>
+                <h6 className="intro">{item.company}</h6>
 
-                <p>{item.description}</p>
+                <p className="intro">{item.description}</p>
               </div>
             ))}
 
