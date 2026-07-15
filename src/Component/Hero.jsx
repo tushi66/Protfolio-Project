@@ -15,7 +15,7 @@ function Hero() {
 
             <h5>Hello I'm</h5>
 
-            <h1 className="display-3 fw-bold">
+            <h1 className="display-1 fw-bold">
               Tushar Patel
             </h1>
 

@@ -4,9 +4,9 @@ import logo from "../assets/images/logo.png"
 function MyNavbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div className="container">
+      <div className="container-fluid">
 
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand ms-5" href="#">
           <img src={logo} className="logo" />
         </a>
 
@@ -20,35 +20,35 @@ function MyNavbar() {
 
         <div className="collapse navbar-collapse" id="menu">
 
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto gap-5">
 
             <li className="nav-item">
               <a className="nav-link" href="#home">
-                Home
+                HOME
               </a>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" href="#about">
-                About
+                ABOUT
               </a>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" href="#skills">
-                Skills
+                SKILLS
               </a>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" href="#portfolio">
-                Portfolio
+                PORTFOLIO
               </a>
             </li>
 
-            <li className="nav-item">
+            <li className="nav-item me-5">
               <a className="nav-link" href="#contact">
-                Contact
+                CONTACT
               </a>
             </li>
 

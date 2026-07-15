@@ -9,6 +9,7 @@ import Contact from './Component/Contact'
 import Resume from './Component/Resume'
 import Footer from './Component/Footer'
 
+
 function App() {
 
   return (
