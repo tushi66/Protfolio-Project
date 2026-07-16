@@ -5,22 +5,21 @@ import logo from "../assets/images/logo.png"
 function MyNavbar() {
 
 
-  const [sticky, setSticky] = useState(false);
+ const [sticky, setSticky] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setSticky(window.scrollY > 100);
-    };
+useEffect(() => {
+  const handleScroll = () => {
+    setSticky(window.scrollY > 100);
+  };
 
-    window.addEventListener("scroll", handleScroll);
+  window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
 
 
   return (
+
     <nav className={`navbar navbar-expand-lg ${sticky ? "sticky-nav" : ""}`}>
       <div className="container-fluid">
 

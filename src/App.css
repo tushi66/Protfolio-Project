@@ -1,5 +1,4 @@
 body {
-    color: #fff;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -18,14 +17,15 @@ section {
 /* // navbar  */
 
 .navbar {
-    position: absolute;
+   position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    background: transparent;
-    transition: all 0.4s ease;
-    z-index: 1000;
+    background: #222529 !important;
+    z-index: 9999;
+
 }
+
 
 .sticky-nav {
     position: fixed;
@@ -33,17 +33,23 @@ section {
     left: 0;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     animation: slideDown 0.4s ease;
-    background: rgba(34, 37, 41, 0.8);
+    background: rgba(34, 37, 41, 0.8) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 
 }
 
 @keyframes slideDown {
     from {
         transform: translateY(-100%);
+                opacity: 0;
+
     }
 
     to {
         transform: translateY(0);
+                opacity: 1;
+
     }
 }
 
@@ -59,13 +65,13 @@ section {
 
 }
 
-.nav-link{
-    color: #C4CFDE;
+.nav-link {
+    color: #C4CFDE !important;
 }
 
 .nav-link:hover {
 
-    color: #ff0057;
+    color: #ff0057 !important;
 }
 
 /* // hero section */
