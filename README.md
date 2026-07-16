@@ -23,11 +23,6 @@ A modern, responsive personal portfolio built with **React**, **Bootstrap**, **V
 
 # 🌐 Live Demo
 
-<p align="center">
-  <a href="https://protfolio-project-three.vercel.app/" target="_blank">
-    <img src="https://protfolio-project-three.vercel.app/" alt="Live Demo"/>
-  </a>
-</p>
 
 🔗 **Website:** [https://your-live-demo-url.com](https://protfolio-project-three.vercel.app/)
 
